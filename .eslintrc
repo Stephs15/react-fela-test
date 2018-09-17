@@ -1,0 +1,24 @@
+{
+    "extends": "airbnb",
+    "env": {
+      "browser": true,
+      "node": true,
+      "mocha": true
+    },
+    "rules": {
+      "linebreak-style": "off",
+      "require-jsdoc": "off",
+      "max-len": "off",
+      "no-invalid-this": "off",
+      "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+      "semi": 0,
+      "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
+      "comma-dangle": "off",
+      "indent": ["error", 2, {"ignoredNodes": ["JSXElement"]}],
+      "no-tabs": 0,
+      "react/jsx-indent": [2, 2],
+      "react/destructuring-assignment": "off",
+      "curly": "off",
+      "object-curly-newline": "off"
+    }
+  }
