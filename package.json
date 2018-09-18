@@ -5,8 +5,7 @@
   "description": "Fela example with React",
   "scripts": {
     "client": "webpack-dev-server --env.THEME=ThemeA",
-    "start": "concurrently --kill-others \"npm run client\" \"babel-node server.js\"",
-    "start2": "babel-node server.js ",
+    "start2": "babel-node server.js",
     "test": "eslint .",
     "setTheme": "SET THEME=ThemeA",
     "storybook": "start-storybook -p 6006",
@@ -25,10 +24,6 @@
     "@babel/preset-env": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
     "@babel/runtime": "^7.0.0",
-    "@storybook/addon-actions": "^3.4.10",
-    "@storybook/addon-links": "^3.4.10",
-    "@storybook/addons": "^3.4.10",
-    "@storybook/react": "^4.0.0-alpha.21",
     "babel-eslint": "^9.0.0",
     "babel-loader": "^8.0.0",
     "concurrently": "^3.4.0",
@@ -79,7 +74,6 @@
     "@svgr/webpack": "^2.3.0",
     "npm": "^6.4.1",
     "npx": "^10.2.0",
-    "storybook-addon-props-fela": "^1.0.3",
     "webpack-dev-server": "^3.1.8"
   }
 }

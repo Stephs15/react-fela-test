@@ -1,5 +1,11 @@
 import React, { Component } from 'react';
 
+/*
+Just an idea on how to use svg icons as a Component
+where you just have to pass the name
+
+Currently the icon is not being rendered, idk why :(
+*/
 const req = require.context('../assets/icons', false, /^\.\/.*\.svg$/);
 const GLYPHS = (req.keys()).reduce((glyphs, key) => {
   const filename = key.match(new RegExp(/[^/]+(?=\.svg$)/))[0];
@@ -36,7 +42,5 @@ class Icon extends Component {
     );
   }
 }
-
-// Try to render it?
 
 export default Icon;

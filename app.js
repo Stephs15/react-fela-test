@@ -5,10 +5,7 @@ import Text from './components/Text'
 import Input from './components/Input'
 import Button from './components/Button/Button'
 import Heading from './components/Heading'
-// import Icon from './common/Icon'
 
-// import Theme from './theme/ThemeA'
-// extend={Theme.theme.button.secondary}
 export default () => (
   <Container>
     <div>Theme as a global defined env variable:</div>

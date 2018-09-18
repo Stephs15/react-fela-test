@@ -45,7 +45,7 @@ const ButtonComponent = createComponent(btnStyle, 'button', [
 ])
 
 // Create Button component
-// I was trying
+// I was trying to create an animation on click
 class Button extends Component {
   constructor(props) {
     super(props);

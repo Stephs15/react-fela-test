@@ -1,3 +1,21 @@
+/*
+THE (FIRST) IDEA
+With this we should have either css properties that fela understands (camel case css)
+and define the style properties for the components that are themed like button, headings, etc
+
+This will be referenced as Theme because we are creating an alias in build level that
+will determine which file is gonna be used to build.
+So ThemeA's name is egal
+*/
+
+/*
+QUESTIONS
+- Is this the right way to manage the colors?
+- Can the theme be structured in a more efficient way?
+- Naming of colors and color properties can probably be improved
+*/
+
+// Define Base colors for the theme
 const baseColors = {
   priBase: '#0F7272',
   priLight: '#128F8F',
@@ -29,6 +47,8 @@ const baseColors = {
   malibu: '#54BDF8'
 };
 
+// Define property colors for the theme
+// These colors are the ones that will be used for the theme
 const propertyColors = {
   border: baseColors.steel,
   focus: baseColors.lead,
@@ -38,6 +58,8 @@ const propertyColors = {
   highlight: baseColors.candlelight,
   disabled: baseColors.boulder
 }
+
+// Theme properties
 
 const ThemeA = {
   baseColors,
